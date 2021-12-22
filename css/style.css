@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Righteous&family=Roboto+Condensed&family=Ubuntu:wght@300&display=swap');
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: 'Ubuntu';
+  line-height: 1.2;
+}
+
+/* Navbar Section */
+.navbar {
+  background-color: #000;
+}
+
+.navbar-brand:hover {
+  color: green !important;
+  font-size: 1.5rem;
+}
+
+.nav-link:hover {
+  color: green !important;
+}
+
+.dropdown-item:hover {
+  background: green;
+}
+
+.navbar-collapse .fa {
+  color: green;
+}
+
+/* About Us Section */
+.name {
+  color: green;
+}
+
+#about-us img.dim {
+  cursor: pointer;
+  transition: 3s ease transform;
+  opacity: .7;
+}
+
+#about-us img.dim:hover {
+  transform: scale(1.1);
+  opacity: 7;
+}
+
+/* Tour Section */
+#tour .trans {
+  cursor: pointer;
+  transition: transform .2s ease-in;
+}
+
+#tour .trans:hover {
+  transform: translateY(-15px);
+}
+
+/* Contact Section */
+::placeholder {
+  font-size: 0.99rem;
+}
+
+#contact .form-control:hover, #contact .form-control:focus {
+    box-shadow: none;
+    background: #293039;
+    color: #fff;
+}
+
+#contact span.sub-text {
+    color: #939da5;
+    font-size: 0.9rem;
+    left: 1rem;
+}
+
+/* Footer Section */
+#footer .fa {
+  transition: transform .2s ease-in;
+}
+
+#footer .fa:hover {
+  transform: translateY(-5px);
+  color: green;
+}
+
+.list-group-item a:hover {
+  color: green !important;
+}
+
+.copyright {
+  font-size: small;
+}
